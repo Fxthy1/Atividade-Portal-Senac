@@ -1,0 +1,54 @@
+body {
+    background-image: url(background.jfif);
+    background-size: 1920px;
+    
+}
+
+.divisao {
+    border-color: black;
+}
+
+ol {
+    background-color: yellow;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin: auto;
+
+}
+
+a {
+    color: black;
+    
+}
+
+li {
+
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    border: solid;
+    float: left;
+    border-width: 1px;
+    background-color: orange;
+    width: 200px;
+    border-color: aqua;
+    text-align: center;
+    
+}
+
+
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+    color: darkblue;
+    font-family: 'Oswald';
+}

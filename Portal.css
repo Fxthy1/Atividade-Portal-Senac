@@ -1,7 +1,5 @@
 body {
-    background-image: url(background.jfif);
-    background-size: 1920px;
-    
+    background-color: rgb(178, 248, 248);
 }
 
 .divisao {
@@ -9,29 +7,31 @@ body {
 }
 
 ol {
-    background-color: yellow;
+    
     display: block;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     margin: auto;
+    width: 600px;
 
 }
 
 a {
-    color: black;
+    color: darkblue;
     
 }
 
 li {
 
     font-family: 'Oswald', sans-serif;
+    font-size: larger;
     list-style: none;
     border: solid;
     float: left;
     border-width: 1px;
     background-color: orange;
-    width: 200px;
+    width: 560px;
     border-color: aqua;
     text-align: center;
     
@@ -51,4 +51,5 @@ h3 {
     font-size: xx-large;
     color: darkblue;
     font-family: 'Oswald';
+    
 }

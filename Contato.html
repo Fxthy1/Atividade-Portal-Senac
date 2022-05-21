@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Contato.css">
 </head>
 <body>
 <form action="Sucesso.html" method="post" name="cadastro">
 
 
-    <img src="logo.png">
+    <img id=logo src="logo.png">
     <hr>
 
-    <h1>Contato</h1>
+    <fieldset>
+    <legend>Contato</legend>
 
     <label for="nome">Seu Nome</label><br>
     <input type="text" id="nome" required>
@@ -33,15 +35,17 @@
     <br>
     <br>
 
-    <label for="assunto">Assunto</label><br>
-    <select id="assunto" required>
-        <option>Selecione uma Opção</option>
-        <option value="Duvidas">Duvidas</option>
-        <option value="Elogios">Elogios</option>
-        <option value="Reclamacoes">Reclamações</option>
-        <option value="Solicitacoes">Solicitações</option>
-        <option value="Outros">Outros</option>
-    </select>
+    
+        <label for="assunto">Assunto</label><br>
+        <select id="assunto" required>
+            <option>Selecione uma Opção</option>
+            <option value="Duvidas">Duvidas</option>
+            <option value="Elogios">Elogios</option>
+            <option value="Reclamacoes">Reclamações</option>
+            <option value="Solicitacoes">Solicitações</option>
+            <option value="Outros">Outros</option>
+        </select>
+    
 
     <br>
     <br>
@@ -58,6 +62,7 @@
     <br>
 
     <input type="submit" name="enviar" value="Enviar Mensagem">
+</fieldset>
 
 </form>
 </body>

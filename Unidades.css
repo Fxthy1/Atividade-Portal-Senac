@@ -1,0 +1,19 @@
+#produtos table {
+    width: 600px;
+    margin: 50px auto 30px;
+    text-align: center;
+}
+
+#produtos th, #produtos td {
+    border: #999 solid 1px;
+    padding: 5px;
+}
+
+#produtos table {
+    width: 600px;
+    margin: 50px auto 30px;
+    text-align: center;
+    border-collapse: collapse;
+    
+
+}
